@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import './UserOutput.css';
 
-userOutput = (props) => {
-    return <div><p>props.firstname</p>
-    <p>props.seconname</p>
-    </div>
+const userOutput = (props) => {
+    return <div className="myText"><p >{props.name}</p></div>
 };
 
 export default userOutput;
